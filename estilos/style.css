@@ -35,14 +35,16 @@ section#login {
     transform: translate(-50%, -50%);
     /* alinhar no centro da tela */
 
-    overflow: hidden; 
+    overflow: hidden;
     /* tudo o que estiver fora da bordar ficará escondido */
 
     background-color: white;
-    width: 250px;
+    width: 300px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.450);
+
+    transition: height 0.3s, width 0.3s;
 }
 
 section#login > div#imagem {
