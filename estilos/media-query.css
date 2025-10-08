@@ -11,6 +11,8 @@ Large devices (laptops/desktops, 992px and up)
 Extra large devices (large laptops and desktops, 1200px and up) */
 
 
+
+/* telas médias (tablets) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body {
@@ -32,9 +34,25 @@ Extra large devices (large laptops and desktops, 1200px and up) */
         float: right;
         width: 55%;    
     }
+
+    section#login > div#formulario > h1 {
+        text-align: center;   
+        padding: 35px;
+        font-size: 3em;
+    }
+
+    section#login > div#formulario > p {
+        text-align: justify;
+        padding: 0px 10px 0px 10px;   
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+
 }
 
-@media screen and (min-width: 992px) {
+/* telas grandes */
+@media screen and (min-width: 992px) { 
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -45,14 +63,27 @@ Extra large devices (large laptops and desktops, 1200px and up) */
     }
 
     section#login > div#imagem {
-        float: left;
-        width: 45%;
+        float: right;
+        width: 50%;
         height: 100%;
         background-position: center;
     }
 
     section#login > div#formulario {
-        float: right;
-        width: 55%;    
+        float: left;
+        width: 50%;    
+    }
+
+    section#login > div#formulario > h1 {
+        text-align: center;   
+        padding: 35px;
+        font-size: 3em;
+    }
+
+    section#login > div#formulario > p {
+        text-align: justify;  
+        padding: 0px 10px 0px 10px; 
+        margin-bottom: 10px;
+        font-size: 1.1em;
     }
 }
