@@ -21,31 +21,32 @@ Extra large devices (large laptops and desktops, 1200px and up) */
     
     section#login {
         width: 80vw;
+        height: 450px;
     }
 
     section#login > div#imagem {
         float: left;
-        width: 45%;
+        width: 40%;
         height: 100%;
         background-position: center;
     }
 
     section#login > div#formulario {
         float: right;
-        width: 55%;    
+        width: 60%;    
     }
 
     section#login > div#formulario > h1 {
         text-align: center;   
         padding: 35px;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     section#login > div#formulario > p {
         text-align: justify;
-        padding: 0px 10px 0px 10px;   
-        margin-bottom: 10px;
-        font-size: 1.1em;
+        padding: 0px 8px 0px 8px;   
+        margin: 10px 0px;
+        font-size: 1em;
     }
 
 
@@ -60,6 +61,7 @@ Extra large devices (large laptops and desktops, 1200px and up) */
 
     section#login {
         width: 900px;
+        height: 450px;
     }
 
     section#login > div#imagem {
